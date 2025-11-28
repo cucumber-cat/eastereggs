@@ -1,0 +1,23 @@
+/**adds whom admits orz to the back of every poster besides catcumber's entry**/
+a.username-coloured:after{
+content:" (whom admits orz)";
+font-size:20px;
+font-family: vividly;
+animation: green 3s linear infinite!important;}
+
+div#post-3720325.entry > h2 > strong > a.username-coloured:after{
+font-size:0px!important;}
+
+
+/**adds stuff before post header**/
+div.entry > h1::before{
+content:"moonlight admits orz and ";
+color:#3b6f69;}
+
+/**makes blog info button = signout **/
+.blog-info{
+display:none!important;}
+
+.blog-logout:after{
+font-size:18px!important;
+content: " • Blog Info";}
