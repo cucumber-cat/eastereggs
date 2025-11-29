@@ -1,8 +1,8 @@
 /**adds whom admits orz to the back of every poster besides catcumber's entry**/
 a.username-coloured:after{
-content:" (whom admits orz)";
-font-size:20px;
-font-family: vividly;
+content:" (whom admits orz)"!important;
+font-size:20px!important;
+font-family: vividly !important;
 animation: green 3s linear infinite!important;}
 
 div#post-3720325.entry > h2 > strong > a.username-coloured:after{
@@ -21,9 +21,3 @@ display:none!important;}
 .blog-logout:after{
 font-size:18px!important;
 content: " • Blog Info";}
-
-a.username-coloured:after, #shouts-widget a:after, p.author a:after{
-content: " whom admits orz"!important;
-font-size:18px !important;
-font-family: vividly !important;
-}
