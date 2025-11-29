@@ -1,14 +1,3 @@
-/**adds whom admits orz to the back of every poster besides catcumber's entry**/
-a.username-coloured:after{
-content:" (whom admits orz)"!important;
-font-size:20px!important;
-font-family: vividly !important;
-animation: green 3s linear infinite!important;}
-
-div#post-3720325.entry > h2 > strong > a.username-coloured:after{
-font-size:0px!important;}
-
-
 /**adds stuff before post header**/
 div.entry > h1::before{
 content:"moonlight admits orz and ";
