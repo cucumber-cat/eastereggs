@@ -21,3 +21,7 @@ display:none!important;}
 .blog-logout:after{
 font-size:18px!important;
 content: " • Blog Info";}
+
+a.username-coloured:after, #shouts-widget a:after, p.author a:after{
+content: " whom admits orz";
+}
